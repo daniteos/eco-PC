@@ -1,0 +1,545 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EcoPC Guayaramerín: reciclaje y reutilización responsable de computadoras.">
+  <title>EcoPC | Una segunda vida para tu computadora</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">♻</span> Eco<span>PC</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Proyecto</a>
+        <a href="#educacion">Aprende</a>
+        <a href="#catalogo">Equipos</a>
+        <a href="#estadisticas">Impacto</a>
+        <a href="#estudiante">Autora</a>
+        <a href="#donar" class="btn btn-primary nav-cta">Registrar equipo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">TECNOLOGÍA + MEDIO AMBIENTE</span>
+          <h1>Una segunda vida para tu <em>computadora.</em></h1>
+          <p>
+            Promovemos el reciclaje, la reparación y la
+            reutilización responsable de equipos informáticos
+            en Guayaramerín, Beni, Bolivia.
+          </p>
+          <div class="hero-actions">
+            <a href="#donar" class="btn btn-primary">Registrar equipo ↗</a>
+            <a href="#nosotros" class="btn btn-outline">Conocer el proyecto</a>
+          </div>
+          <div class="hero-note">
+            <span class="green-dot"></span>
+            Cada equipo recuperado representa una oportunidad.
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-decoration"></div>
+          <div class="image-placeholder hero-image">
+            <img src="imagen 1.jpg" alt="Computadoras reutilizadas"
+              onerror="this.style.display='none'">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">💻</span>
+              <strong>Tecnología con propósito</strong>
+              <small>Espacio para una fotografía del proyecto</small>
+            </div>
+          </div>
+          <div class="floating-card">
+            <span>🌱</span>
+            <div>
+              <strong>Reduce · Reutiliza · Recicla</strong>
+              <small>Construyamos un futuro sostenible.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCCIÓN -->
+    <section id="nosotros" class="section">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">NUESTRO PROPÓSITO</span>
+          <h2>La tecnología también puede cuidar el planeta.</h2>
+          <p>
+            Los residuos de aparatos eléctricos y electrónicos
+            representan un desafío ambiental. Muchas computadoras
+            pueden seguir siendo útiles mediante reparación,
+            mantenimiento o reutilización.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card">
+            <div class="card-icon purple">♻</div>
+            <h3>Reducir</h3>
+            <p>
+              Promover el uso responsable de computadoras
+              y disminuir la generación innecesaria de residuos.
+            </p>
+          </article>
+          <article class="info-card">
+            <div class="card-icon green">🖥</div>
+            <h3>Reutilizar</h3>
+            <p>
+              Facilitar el registro de equipos que todavía
+              pueden aprovecharse en otros espacios.
+            </p>
+          </article>
+          <article class="info-card">
+            <div class="card-icon yellow">🌿</div>
+            <h3>Concientizar</h3>
+            <p>
+              Compartir conocimientos sobre reciclaje electrónico,
+              seguridad y cuidado ambiental.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMÁTICA -->
+    <section class="section soft-bg">
+      <div class="container split-grid">
+        <div class="illustration-panel">
+          <div class="illustration-symbol">🖥️</div>
+          <h3>¿Basura o una nueva oportunidad?</h3>
+          <p>
+            Un equipo fuera de uso no siempre es un equipo
+            imposible de recuperar.
+          </p>
+        </div>
+        <div>
+          <span class="eyebrow">LA PROBLEMÁTICA</span>
+          <h2>¿Por qué es importante recuperar computadoras?</h2>
+          <p>
+            El reemplazo frecuente de equipos informáticos
+            incrementa la cantidad de residuos electrónicos.
+            Su manejo inadecuado puede afectar al medio ambiente
+            y a la salud de las personas.
+          </p>
+          <p>
+            Este proyecto busca fomentar alternativas como
+            el mantenimiento, la reparación, la donación
+            responsable y la entrega a gestores especializados.
+          </p>
+          <a href="#educacion" class="text-link">Aprender sobre reciclaje →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCACIÓN AMBIENTAL -->
+    <section id="educacion" class="section">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">EDUCACIÓN AMBIENTAL</span>
+          <h2>Aprende a darle una segunda vida a tus equipos.</h2>
+          <p>Conoce las acciones más importantes para un manejo responsable.</p>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <span class="step-number">01</span>
+            <h3>Evalúa el equipo</h3>
+            <p>
+              Comprueba si funciona, si necesita mantenimiento
+              o si requiere una reparación técnica.
+            </p>
+          </article>
+          <article class="education-card">
+            <span class="step-number">02</span>
+            <h3>Protege la información</h3>
+            <p>
+              Antes de entregar una computadora, respalda
+              tus archivos y realiza un borrado seguro
+              de los datos personales.
+            </p>
+          </article>
+          <article class="education-card">
+            <span class="step-number">03</span>
+            <h3>Reutiliza o dona</h3>
+            <p>
+              Si el equipo está en condiciones adecuadas,
+              puede beneficiar a estudiantes o instituciones.
+            </p>
+          </article>
+          <article class="education-card">
+            <span class="step-number">04</span>
+            <h3>Recicla responsablemente</h3>
+            <p>
+              Los componentes que no puedan recuperarse deben
+              entregarse a gestores autorizados cuando existan.
+              No los quemes ni desmontes componentes peligrosos.
+            </p>
+          </article>
+        </div>
+
+        <div class="warning-note">
+          <strong>Importante:</strong> Las baterías dañadas,
+          monitores antiguos y otros componentes potencialmente
+          peligrosos requieren manejo especializado.
+          No deben desecharse con la basura doméstica.
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTRO -->
+    <section id="donar" class="section soft-bg">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">PARTICIPA EN EL PROYECTO</span>
+          <h2>Registra una computadora.</h2>
+          <p>
+            Agrega información sobre un equipo en desuso.
+            El registro se guardará localmente en este navegador.
+          </p>
+        </div>
+
+        <div class="form-layout">
+          <div class="form-intro">
+            <span class="form-intro-icon">💜</span>
+            <h3>Tu equipo puede tener una nueva oportunidad.</h3>
+            <p>
+              Completa los datos para incorporarlo al catálogo
+              demostrativo de EcoPC.
+            </p>
+            <ul class="check-list">
+              <li>Registro sencillo</li>
+              <li>Clasificación por estado</li>
+              <li>Catálogo actualizable</li>
+              <li>Almacenamiento local</li>
+            </ul>
+          </div>
+
+          <form id="equipoForm" class="form-card">
+            <input type="hidden" id="equipoId">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="tipo">Tipo de equipo *</label>
+                <select id="tipo" required>
+                  <option value="">Seleccionar</option>
+                  <option>Computadora de escritorio</option>
+                  <option>Computadora portátil</option>
+                  <option>Monitor</option>
+                  <option>Teclado</option>
+                  <option>Otro periférico</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="marca">Marca *</label>
+                <input id="marca" type="text" maxlength="60"
+                  placeholder="Ej. Lenovo" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="estado">Estado del equipo *</label>
+                <select id="estado" required>
+                  <option value="">Seleccionar</option>
+                  <option value="Funcional">Funcional</option>
+                  <option value="Reparable">Necesita reparación</option>
+                  <option value="Evaluación">Pendiente de evaluación</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="destino">Destino previsto *</label>
+                <select id="destino" required>
+                  <option value="">Seleccionar</option>
+                  <option>Disponible para donación</option>
+                  <option>Reutilización personal</option>
+                  <option>Evaluación técnica</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="descripcion">Descripción *</label>
+              <textarea id="descripcion" rows="4" maxlength="400"
+                placeholder="Características, accesorios, fallas o detalles importantes..."
+                required></textarea>
+            </div>
+
+            <div class="field">
+              <label for="responsable">Nombre del responsable *</label>
+              <input id="responsable" type="text" maxlength="80"
+                placeholder="Nombre de quien registra el equipo" required>
+            </div>
+
+            <label class="checkbox-field">
+              <input type="checkbox" id="consentimiento" required>
+              <span>
+                Confirmo que tengo autorización para registrar
+                este equipo y comprendo que los datos se guardan
+                únicamente en este navegador.
+              </span>
+            </label>
+
+            <button class="btn btn-primary full-width" type="submit"
+              id="submitEquipo">Guardar equipo</button>
+            <button class="btn btn-ghost full-width hidden"
+              type="button" id="cancelarEdicion">Cancelar edición</button>
+            <p class="form-message" id="equipoMensaje" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO -->
+    <section id="catalogo" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CATÁLOGO DIGITAL</span>
+          <h2>Equipos registrados.</h2>
+          <p>
+            Consulta los registros guardados en este navegador.
+            Los equipos no representan donaciones verificadas.
+          </p>
+        </div>
+
+        <div class="catalog-controls">
+          <input id="buscarEquipo" type="search"
+            placeholder="Buscar por tipo, marca o descripción...">
+          <select id="filtrarEstado">
+            <option value="Todos">Todos los estados</option>
+            <option value="Funcional">Funcionales</option>
+            <option value="Reparable">Reparables</option>
+            <option value="Evaluación">Pendientes de evaluación</option>
+          </select>
+        </div>
+
+        <div id="listaEquipos" class="catalog-grid"></div>
+
+        <div class="data-actions">
+          <button class="btn btn-outline" id="exportarDatos">
+            Exportar respaldo JSON
+          </button>
+          <label class="btn btn-outline upload-label">
+            Importar respaldo JSON
+            <input type="file" id="importarDatos"
+              accept=".json,application/json" hidden>
+          </label>
+        </div>
+        <p id="datosMensaje" class="form-message" role="status"></p>
+      </div>
+    </section>
+
+    <!-- SOLICITUDES -->
+    <section id="solicitudes" class="section soft-bg">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">SOLICITUDES</span>
+          <h2>Una computadora puede abrir nuevas oportunidades.</h2>
+          <p>
+            Las instituciones educativas pueden registrar
+            su interés en recibir equipos reutilizables.
+          </p>
+          <p>
+            Este formulario es demostrativo y no garantiza
+            la entrega de computadoras. Las solicitudes
+            se almacenan localmente.
+          </p>
+          <div class="mini-highlight">
+            💡 La reutilización responsable puede apoyar
+            el acceso a herramientas informáticas.
+          </div>
+        </div>
+
+        <form id="solicitudForm" class="form-card">
+          <h3>Registrar solicitud</h3>
+          <div class="field">
+            <label for="institucion">Institución *</label>
+            <input id="institucion" type="text"
+              maxlength="100" required>
+          </div>
+          <div class="field">
+            <label for="solicitante">Responsable *</label>
+            <input id="solicitante" type="text"
+              maxlength="80" required>
+          </div>
+          <div class="field">
+            <label for="cantidad">Cantidad de equipos *</label>
+            <input id="cantidad" type="number" min="1" max="100"
+              required>
+          </div>
+          <div class="field">
+            <label for="motivo">Finalidad de la solicitud *</label>
+            <textarea id="motivo" rows="3" maxlength="400"
+              required></textarea>
+          </div>
+          <button class="btn btn-primary full-width" type="submit">
+            Guardar solicitud
+          </button>
+          <p id="solicitudMensaje" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section id="estadisticas" class="section">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">IMPACTO DEL PROTOTIPO</span>
+          <h2>Pequeñas acciones, grandes posibilidades.</h2>
+          <p>
+            Estadísticas generadas automáticamente a partir
+            de los registros locales.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-icon">💻</span>
+            <strong id="totalEquipos">0</strong>
+            <span>Equipos registrados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">✅</span>
+            <strong id="totalFuncionales">0</strong>
+            <span>Equipos funcionales</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🔧</span>
+            <strong id="totalReparables">0</strong>
+            <span>Equipos reparables</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">🤝</span>
+            <strong id="totalSolicitudes">0</strong>
+            <span>Solicitudes registradas</span>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <h3>Distribución por estado</h3>
+          <div class="chart-row">
+            <span>Funcionales</span>
+            <div class="chart-track">
+              <div id="barraFuncionales" class="chart-fill fill-green"></div>
+            </div>
+            <strong id="porcentajeFuncionales">0%</strong>
+          </div>
+          <div class="chart-row">
+            <span>Reparables</span>
+            <div class="chart-track">
+              <div id="barraReparables" class="chart-fill fill-yellow"></div>
+            </div>
+            <strong id="porcentajeReparables">0%</strong>
+          </div>
+          <div class="chart-row">
+            <span>En evaluación</span>
+            <div class="chart-track">
+              <div id="barraEvaluacion" class="chart-fill fill-purple"></div>
+            </div>
+            <strong id="porcentajeEvaluacion">0%</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTORA -->
+    <section id="estudiante" class="section author-section">
+      <div class="container author-grid">
+        <div class="author-photo image-placeholder">
+          <img src="imagen 2.jpeg" alt="Fotografía de la estudiante"
+            onerror="this.style.display='none'">
+          <div class="placeholder-content">
+            <span class="placeholder-icon">🎓</span>
+            <strong>Fotografía de la estudiante</strong>
+            <small>Colocar en img/estudiante.jpg</small>
+          </div>
+        </div>
+
+        <div>
+          <span class="eyebrow">SOBRE LA AUTORA</span>
+          <h2>Un proyecto académico con propósito ambiental.</h2>
+          <h3>Danna Stefany Díez Yumacale</h3>
+          <p>
+            Estudiante de la especialidad de Sistemas Informáticos
+            de la Unidad Educativa Liceo Nacional Guayaramerín.
+          </p>
+          <p>
+            Proyecto: <strong>Reciclaje y reúso de computadoras
+            como beneficio al medio ambiente.</strong>
+          </p>
+          <div class="author-details">
+            <p><strong>Especialidad:</strong> Sistemas Informáticos</p>
+            <p><strong>Unidad educativa:</strong> Liceo Nacional Guayaramerín</p>
+            <p><strong>Ciudad:</strong> Guayaramerín, Beni, Bolivia</p>
+            <p><strong>Docente:</strong> Lic. Jesús William Ibáñez Tórrez</p>
+            <p><strong>Gestión:</strong> 2026</p>
+          </div>
+          <p class="small-text">
+            Los datos académicos pueden actualizarse antes
+            de la presentación final.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="logo footer-logo">
+          <span class="logo-icon">♻</span> Eco<span>PC</span>
+        </a>
+        <p>
+          Tecnología, educación y conciencia ambiental
+          para un futuro más sostenible.
+        </p>
+      </div>
+      <div>
+        <h4>Explorar</h4>
+        <a href="#nosotros">El proyecto</a>
+        <a href="#educacion">Educación ambiental</a>
+        <a href="#catalogo">Catálogo</a>
+      </div>
+      <div>
+        <h4>Participar</h4>
+        <a href="#donar">Registrar equipo</a>
+        <a href="#solicitudes">Solicitar equipos</a>
+        <a href="#estadisticas">Estadísticas</a>
+      </div>
+      <div>
+        <h4>Información</h4>
+        <p>Guayaramerín, Beni, Bolivia</p>
+        <p>Proyecto académico de Sistemas Informáticos.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="anioActual"></span> EcoPC Guayaramerín.</span>
+      <span>Proyecto educativo · Prototipo local</span>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
